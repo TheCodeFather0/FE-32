@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+  box-sizing: border-box;
+}
+
+.header,
+.footer {
+  background-color: grey;
+  padding: 20px;
+  text-align: center;
+}
+
+.teamMembers {
+    padding: 20px;
+    border-bottom: 3px solid darkred;
+}
+
+
+.member {
+    display: inline-block;
+    margin: 6px;
+    width: 280px;
+    border: 3px solid darkblue;
+}
+
+.memmberImage {
+    width: 100%;
+}
+
+.textContent {
+    padding: 15px;
+}
+
+.left,
+.right {
+    padding: 20px;
+    width: 700px;
+    display: inline-block;
+}
+
+.right {
+    height: 400px;
+    vertical-align: top;
+}
+
+.aboutUsImage {
+    width: 100%;
+}
+
+.aboutUsTitle {
+    font-size: 60px;
+    text-transform: capitalize;
+    letter-spacing: 5px;
+}
+
+.aboutUsDescription {
+    text-align: justify;
+    line-height: 25px;
+    margin-top: 20px;
+}
+
+.red {
+    color:red
+}

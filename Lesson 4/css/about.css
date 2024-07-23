@@ -1,0 +1,7 @@
+body {
+    /* background-color: pink; */
+    background-image: linear-gradient(rgba(227, 156, 156, 0.5),rgba(205, 168, 168, 0.5)),url(https://t3.ftcdn.net/jpg/00/17/30/74/360_F_17307408_RcdYtwlTOMmQAqqqYLZkJBDgb1SKHOXZ.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}

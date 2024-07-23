@@ -1,0 +1,20 @@
+div {
+  color: red;
+}
+
+a {
+  color: green;
+  font-size: 30px;
+  font-weight: 500;
+  font-style: italic;
+
+  text-decoration: underline dashed;
+}
+
+li {
+  list-style-type: none;
+}
+
+p {
+  cursor: crosshair;
+}
