@@ -1,0 +1,40 @@
+$esasReng:pink;
+$oratalamaSriftOlcusu:30px;
+
+h1,h2,h3 {
+    color: $esasReng;
+    font-size: $oratalamaSriftOlcusu;
+}
+
+.parent {
+
+    background-color: $esasReng;
+
+    .child {
+        color: green;
+
+        .child2 {
+            padding: 10px;
+            
+            &:hover {
+                color: orange;
+            }
+        }
+    }
+
+}
+
+@mixin duymeler {
+    padding: 5px 10px;
+    border: 2px solid;
+    cursor: pointer;
+}
+
+.btn-1 {
+    @include duymeler;
+    background-color: red;
+}
+.btn-2 {
+    @extend .btn-1;
+    background-color: green;
+}

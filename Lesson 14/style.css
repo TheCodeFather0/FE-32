@@ -1,0 +1,29 @@
+
+img{
+    width: 250px;
+    height: 150px;
+    position: absolute;
+    left: 40%;
+    top: 0;
+}
+
+.horse1{
+    animation: birinciAt 5s forwards;
+}
+
+
+@keyframes birinciAt {
+    0%{
+        top: 0;
+    }
+    50%{
+        top: 30%;
+    }
+    100%{
+        top: 80%;
+    }
+}
+
+
+
+

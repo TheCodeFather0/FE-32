@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    list-style-type: none;
+    box-sizing: border-box;
+
+}
+
+table {
+    width: 700px;
+    margin: auto;
+    border-collapse: collapse;
+    border: 1px solid green;
+}
+
+table tr td,
+table tr th {
+    padding: 10px;
+    border: 1px solid green;
+}
+
+table tr:first-child th {
+    border-bottom-width: 3px;
+}
+
+thead tr {
+    background-color: #000;
+    color: lime;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #ddd;
+}
+
+tbody tr:hover{
+    background-color: #000;
+    color: #fff;
+}

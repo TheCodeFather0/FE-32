@@ -1,0 +1,28 @@
+h1, h2, h3 {
+  color: pink;
+  font-size: 30px;
+}
+
+.parent {
+  background-color: pink;
+}
+.parent .child {
+  color: green;
+}
+.parent .child .child2 {
+  padding: 10px;
+}
+.parent .child .child2:hover {
+  color: orange;
+}
+
+.btn-1, .btn-2 {
+  padding: 5px 10px;
+  border: 2px solid;
+  cursor: pointer;
+  background-color: red;
+}
+
+.btn-2 {
+  background-color: green;
+}/*# sourceMappingURL=style.css.map */

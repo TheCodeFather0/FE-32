@@ -1,0 +1,21 @@
+input,select {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.socilaMedia p:nth-child(odd) .myicon {
+    color: red;
+}
+
+
+.socilaMedia p:nth-child(even) .myicon {
+    color: green;
+}
+
+* {
+    user-select: none;
+}
+
+#test {
+    color: purple;
+}

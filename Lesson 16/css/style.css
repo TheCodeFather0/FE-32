@@ -1,0 +1,126 @@
+@font-face {
+    font-family: Prompt;
+    src:url('../fonts/Prompt/Prompt-Regular.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: auto;
+    max-width: 1320px;
+}
+
+.logo img {
+    width: 200px;
+}
+
+.header_top {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.header_top .phoneIcon {
+    color: green;
+    vertical-align: middle;
+}
+
+.navigation {
+    height: 600px;
+    display: grid;
+    margin-top: 40px;
+    place-items: center;
+    background-size: cover;
+    background: url('../images/yemek.svg') no-repeat center;
+}
+
+nav {
+    width: 70%;
+    padding: 7px;
+    display: flex;
+    border-radius: 30px;
+    background-color: #fff;
+    justify-content: space-between;
+}
+
+nav .link {
+    display: inline-block;
+    padding: 7px 30px;
+    color: #212121;
+    font-family: Prompt;
+}
+
+nav .link.active {
+    color: #fff;
+    border-radius: 30px;
+    background-color: green;
+}
+
+main {
+    margin-top: 40px;
+}
+
+.titleAndDescription {
+    width: 60%;
+    margin: auto;
+    font-family: Prompt;
+    text-align: center;
+}
+
+.titleAndDescription p{
+    margin: 25px 0;
+}
+
+
+.line {
+    width: 80%;
+    height: 2px;
+    background-color: green;
+    margin: 35px auto;
+}
+
+.menu {
+    gap: 20px;
+    font-family: Prompt;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: center;
+}
+
+.menu .menuItem{
+    box-shadow: 0 0 10px #c3c0c0;
+}
+
+.menuItem .foodImage img {
+    width: 100%;
+}
+
+.menuItem .foodInfo {
+    padding: 15px;
+}
+
+.ingredientsAndServed {
+    margin: 15px 0 0 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ingredientsAndServed ul{
+}
+
+.ingredientsAndServed ul li {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.ingredientsAndServed ul li:last-child {
+    margin-bottom: 0;
+}

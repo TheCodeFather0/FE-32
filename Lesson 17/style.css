@@ -1,0 +1,28 @@
+.loader {
+    animation: test 3s forwards;
+}
+
+.site {
+    display: none;
+    animation: test2 4s forwards;
+}
+
+
+@keyframes test {
+  0% {
+    display: block;
+  }
+  100% {
+    display: none;
+  }
+}
+
+@keyframes test2 {
+    from {
+      display: none !important;
+    }
+    to {
+      display: block !important;
+    }
+  }
+  

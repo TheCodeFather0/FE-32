@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="socilaMedia">
+      <div><i class="myicon fa-brands fa-instagram"></i> instagram</div id="test">
+      <p><i class="myicon fa-brands fa-whatsapp fa-spin"></i> whatsapp</p>
+      <p><i class="myicon fa-brands fa-telegram fa-beat-fade"></i> telegram</p>
+      <p><i class="myicon fa-brands fa-skype"></i> skype</p>
+    </div>
+
+    <!-- <form>
+     <fieldset>
+        <legend>qeydiyyat formu</legend>
+        <label for="nameAndSurname">
+            Ad/soyad:
+            <input
+              type="text"
+              placeholder="ad,soyad"
+              id="nameAndSurname"
+              autocomplete="off"
+              name="nameAndSurname"
+              minlength="5"
+              maxlength="10"
+              required
+            />
+          </label>
+    
+          <label for="age">
+            Yas:
+            <input
+              type="number"
+              id="age"
+              autocomplete="off"
+              name="age"
+              min="18"
+              max="65"
+              required
+            />
+          </label>
+    
+          <label for="email">
+            Email:
+            <input
+              type="email"
+              placeholder="example@example.com"
+              id="email"
+              name="email"
+              required
+              autocomplete="off"
+            />
+          </label>
+    
+          <label for="password">
+            Password:
+            <button id="showHideBtn">goster</button>
+            <input
+              type="password"
+              id="password"
+              name="password"
+              required
+              autocomplete="off"
+            />
+          </label>
+    
+          <input type="date" />
+          <input type="color" />
+          <input type="file" />
+    
+          <h2>gender</h2>
+          <label for="male">
+            male
+            <input type="radio" id="male" name="gender" value="male" />
+          </label>
+          <label for="female">
+            female
+            <input type="radio" id="female" name="gender" value="female" />
+          </label>
+    
+          <h2>sevdiyiniz yemekler</h2>
+          <label for="dovga">
+            dovga
+            <input type="checkbox" value="dovga" name="yemek" />
+          </label>
+          <label for="burger">
+            burger
+            <input type="checkbox" value="burger" name="yemek" />
+          </label>
+          <label for="dolma">
+            dolma
+            <input type="checkbox" value="dolma" name="yemek" />
+          </label>
+    
+          <h2>harda qalirsan brat?</h2>
+          <select multiple>
+            <optgroup label="yaxin seherler">
+              <option value="baki">baki</option>
+              <option value="sumqayit">sumqayit</option>
+              <option value="samaxi">samaxi</option>
+            </optgroup>
+    
+           <optgroup label="uzaq seherler">
+            <option value="naxcivan">naxcivan</option>
+            <option value="xacmaz">xacmaz</option>
+           </optgroup>
+          </select>
+          <!-- <input type="submit" value="gonder" /> -->
+    <!-- <button type="button">adi duyme</button>
+          <button type="reset">sifirla</button>
+          <button type="submit">gonder</button>
+     </fieldset> -->
+    <!-- </form> -->
+
+    <script>
+      const showHideBtn = document.getElementById("showHideBtn");
+      const password = document.getElementById("password");
+      showHideBtn.addEventListener("click", (e) => {
+        e.preventDefault();
+        if (password.getAttribute("type") === "text") {
+          password.setAttribute("type", "password");
+          showHideBtn.innerText = "goster";
+        } else {
+          password.setAttribute("type", "text");
+          showHideBtn.innerText = "gizlet";
+        }
+      });
+    </script>
+  </body>
+</html>
